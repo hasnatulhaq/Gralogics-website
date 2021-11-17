@@ -50,8 +50,8 @@
       </div>
       <div id="mymap" class="map-section"></div>
       <!--navbar end-->
-      <!--Right Side bar-->
-      <div class="rsidebar">
+      <!--left Side bar-->
+      <div class="lsidebar">
             <ul class="navbar-nav me-auto side-list">
               <li class="sidebar-item">
                 <a href="#" class="sidebar-link">
@@ -69,11 +69,11 @@
               </li>
             </ul>
       </div>
-      <!--Right side bar end-->
+      <!--left side bar end-->
 
         <!--Right Side bar-->
-        <div class="lsidebar">
-                <div class="lsidebar-title">
+        <div class="rsidebar">
+                <div class="rsidebar-title">
                   <h5>Your Selected Pracel</h5>
                 </div>
                 <hr>
@@ -87,13 +87,7 @@
                  <hr>
         </div>
         <!--Right side bar end-->
-        <script>
-          const mymap = L.map('mymap').setView([36.49082 , -119.7119], 10);
-			const attribution = 'Rendered by AGRALOGICS using ESRI & GeoEye Basemaps';
-			const tileUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
-			//'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-			const tiles = L.tileLayer(tileUrl, {attribution});
-			tiles.addTo(mymap);
-          </script>
+        <!--js link-->
+        <script src="assets/js/script.js"></script>
 </body>
 </html>
