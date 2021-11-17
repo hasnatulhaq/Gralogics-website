@@ -1,0 +1,94 @@
+body{
+    background: white;
+}
+
+
+.navcustom{
+     background: white;
+}
+
+.navbar-brand{
+    padding: 10px !important;
+}
+
+.map-section{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+.center-content{
+    position: absolute;
+    padding-left: 397px;
+    margin-top: 16px;
+    z-index: 5;
+
+}
+
+.rsidebar{
+    position: fixed;
+    opacity: 0.5;
+  width: 95px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: black;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.rlist{
+    margin-top: 15px;
+    padding: 14px;
+}
+
+.sidebar-item{
+    color: black;
+    padding: 8px;
+
+}
+
+.sidebar-icon{
+    padding: 0.1rem;
+}
+
+.sidebar-link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.side-list{
+    margin-top: 27px !important;
+    margin-left: 10px !important;
+}
+
+.lsidebar{
+    position: fixed;
+    opacity: 0.5;
+    width: 220px;
+    height: 100%;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: black;
+    color: #fff;
+    z-index: 3;
+}
+
+.llist{
+    padding: 10px;
+}
+
+.lisdebar-icon{
+    padding: 10px;
+}
+
+.lsidebar-title{
+    margin-top: 28px;
+    margin-left: 14px;
+}
+
