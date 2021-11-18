@@ -26,6 +26,10 @@ body{
     
 }
 
+.inputsearch-btn{
+    background: gray;
+}
+
 .center-content{
     position: absolute;
     padding-left: 397px;
