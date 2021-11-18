@@ -33,6 +33,7 @@ body{
 .center-content{
     position: absolute;
     padding-left: 397px;
+    padding-right: 397px;
     margin-top: 16px;
     z-index: 5;
 
