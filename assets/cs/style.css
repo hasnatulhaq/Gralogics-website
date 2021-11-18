@@ -41,8 +41,8 @@ body{
 
 .lsidebar{
     position: fixed;
-    opacity: 0.5;
-  width: 95px;
+    opacity: 0.8;
+  width: 90px;
   height: 100%;
   left: 0;
   overflow-x: hidden;
