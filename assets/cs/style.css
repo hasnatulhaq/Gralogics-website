@@ -99,6 +99,14 @@ body{
     margin-left: 14px;
 }
 
+.p-icon{
+    padding-left: 8px;
+}
+
+.rside-icon{
+    margin-top:11px;
+}
+
 .nextbtn{
     bottom: 0;
     position: fixed;
