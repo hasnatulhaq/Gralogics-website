@@ -19,10 +19,10 @@ body{
 }
 
 .map-section{
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    z-index: 3;
+    width: 75%;
+    height: 91.2%;
+    margin-left: 90px;
+    position: fixed;
     
 }
 
@@ -32,10 +32,12 @@ body{
 
 .center-content{
     position: absolute;
-    padding-left: 397px;
-    padding-right: 397px;
+    padding-left: 376px;
+    padding-right: 580px;
     margin-top: 16px;
-    z-index: 5;
+    z-index: 3;
+    justify-content: center;
+    
 
 }
 
@@ -49,7 +51,7 @@ body{
   overflow-y: auto;
   background: black;
   font-weight: bold;
-  z-index: 3;
+
 }
 
 .sidebar-item{
@@ -79,14 +81,13 @@ body{
 .rsidebar{
     position: fixed;
     opacity: 0.8;
-    width: 213px;
+    width: 294px;
     height: 100%;
     right: 0;
     overflow-x: hidden;
     overflow-y: auto;
     background: black;
     color: #fff;
-    z-index: 3;
 }
 
 .rlist{
@@ -117,7 +118,8 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 21px;
+    width: 295px;
 }
 
 
