@@ -5,6 +5,45 @@ const tileUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imag
 const tiles = L.tileLayer(tileUrl, {attribution});
 tiles.addTo(mymap);
 
+//Draw features
+var drawnItems = new L.FeatureGroup();
+mymap.addLayer(drawnItems);
+
+var drawControl = new L.Control.Draw({
+    draw: {
+        position: 'topleft',
+        polygon: {
+            title: 'Draw a Parcel!',
+            allowIntersection: false,
+            drawError: {
+                color: '#b00b00',
+                timeout: 1000
+            },
+            shapeOptions: {
+                color: '#bada55'
+            },
+            showArea: true
+        },
+        polyline: false,
+        circle: false,
+        marker: false,
+        circlemarker: false
+    },
+    edit: {
+        featureGroup: drawnItems
+    }
+});
+mymap.addControl(drawControl);
+
+mymap.on('draw:created', function (e) {
+    var type = e.layerType,
+        layer = e.layer;
+
+    // Do whatever else you need to. (save to db, add to map etc)
+    drawnItems.addLayer(layer);
+});
+
+// Autocomplete search
 $(function() {
     $("#searchBox").autocomplete({
         source : function(request, response) {
@@ -43,6 +82,7 @@ $(function() {
     
 });
 
+//Load parcles data
 $.ajax({
     type: "GET",
     url: "http://localhost:5000/parcels",
