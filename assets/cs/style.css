@@ -2,7 +2,6 @@ body{
     background: white;
 }
 
-
 .navcustom{
      background: white;
 }
@@ -11,11 +10,14 @@ body{
     padding: 10px !important;
 }
 
-
 .navbar-logo{
 
     height: 59 !important;
     margin-left: 37px !important;
+}
+
+.bg-dark {
+    border-bottom: 3px solid #7f181b;
 }
 
 .map-section{
@@ -23,7 +25,6 @@ body{
     height: 91.2%;
     margin-left: 90px;
     position: fixed;
-    
 }
 
 .inputsearch-btn{
@@ -37,20 +38,18 @@ body{
     margin-top: 16px;
     z-index: 3;
     justify-content: center;
-    
-
 }
 
 .lsidebar{
     position: fixed;
     opacity: 0.8;
-  width: 90px;
-  height: 100%;
-  left: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  background: black;
-  font-weight: bold;
+    width: 90px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: black;
+    font-weight: bold;
 
 }
 
@@ -75,8 +74,6 @@ body{
     margin-left: 10px !important;
 }
 
-
-
 /* Right side bar */
 .rsidebar{
     position: fixed;
@@ -93,7 +90,6 @@ body{
 .rlist{
     padding: 10px;
 }
-
 
 .rsidebar-title{
     margin-top: 28px;
