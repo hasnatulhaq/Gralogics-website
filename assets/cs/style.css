@@ -16,13 +16,29 @@ body{
     margin-left: 37px !important;
 }
 
+.navlogo{
+    height: 60px;
+    margin-left: 28px;
+}
+
+.menu-list{
+    margin-left: 30px;
+}
+.navend{
+    margin-right: 52px;
+}
+
+.nav-icon{
+    margin-right: 8px;
+}
+
 .bg-dark {
     border-bottom: 3px solid #7f181b;
 }
 
 .map-section{
     width: 75%;
-    height: 91.2%;
+    height: 90.1%;
     margin-left: 90px;
     position: fixed;
 }
@@ -98,6 +114,7 @@ body{
 
 .p-icon{
     padding-left: 8px;
+    color:white;
 }
 
 .rside-icon{
@@ -119,3 +136,6 @@ body{
 }
 
 
+a:link{
+    text-decoration: none;
+}
