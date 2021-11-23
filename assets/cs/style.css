@@ -1,34 +1,29 @@
-body{
+body {
     background: white;
 }
 
-.navcustom{
-     background: white;
+.navcustom {
+    background: white;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 10px !important;
 }
 
-.navbar-logo{
-
-    height: 59 !important;
-    margin-left: 37px !important;
-}
-
-.navlogo{
+.navlogo {
     height: 60px;
-    margin-left: 28px;
-}
-
-.menu-list{
     margin-left: 30px;
 }
-.navend{
+
+.menu-list {
+    margin-left: 30px;
+}
+
+.navend {
     margin-right: 52px;
 }
 
-.nav-icon{
+.nav-icon {
     margin-right: 8px;
 }
 
@@ -36,27 +31,27 @@ body{
     border-bottom: 3px solid #7f181b;
 }
 
-.map-section{
+.map-section {
     width: 75.8%;
     height: 90.1%;
     margin-left: 78px;
     position: fixed;
 }
 
-.inputsearch-btn{
+.inputsearch-btn {
     background: gray;
 }
 
-.center-content{
+.center-content {
     position: absolute;
-    padding-left: 376px;
-    padding-right: 580px;
+    padding-left: 348px;
+    padding-right: 564px;
     margin-top: 16px;
     z-index: 3;
     justify-content: center;
 }
 
-.lsidebar{
+.lsidebar {
     position: fixed;
     opacity: 0.8;
     width: 78px;
@@ -65,68 +60,71 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     background: black;
-    font-weight: bold;
-
 }
 
-.sidebar-item{
+.sidebar-item {
     color: black;
     padding: 8px;
-
 }
 
-.sidebar-icon{
-    padding: 0.1rem;
+.sidebar-icon {
+    padding-right: 1.3rem;
 }
 
-.sidebar-link{
+.sidebar-link {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
 
-.side-list{
-    margin-top: 27px !important;
-    margin-left: 4px !important;
+.side-list {
+    margin-left: 0.2rem !important;
+    padding-left: 0.2rem;
+    text-align: center;
 }
 
+.sicon-text {
+    text-align: center;
+    font-size: 13px;
+}
+
+
 /* Right side bar */
-.rsidebar{
+
+.rsidebar {
     position: fixed;
     opacity: 0.8;
-    width: 294px;
+    width: 18.125rem;
     height: 100%;
     right: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
     background: black;
     color: #fff;
 }
 
-.rlist{
+.rlist {
     padding: 10px;
 }
 
-.rsidebar-title{
+.rsidebar-title {
     margin-top: 28px;
     margin-left: 14px;
 }
 
-.rsidetitle-text{
+.rsidetitle-text {
     text-align: center;
     font-size: large;
 }
 
-.p-icon{
+.p-icon {
     padding-left: 8px;
-    color:white;
+    color: white;
 }
 
-.rside-icon{
-    margin-top:11px;
+.rside-icon {
+    margin-top: 11px;
 }
 
-.nextbtn{
+.nextbtn {
     bottom: 0;
     position: fixed;
     background: green;
@@ -140,7 +138,6 @@ body{
     width: 295px;
 }
 
-
-a:link{
+a:link {
     text-decoration: none;
 }
