@@ -82,14 +82,36 @@ $(function() {
     
 });
 
+// Load assets data in side panel
+$.ajax({
+    type: "GET",
+    url: "http://localhost:5000/assets",
+    dataType: 'json',
+    success: function(assets_data) {   
+        console.log(assets_data);
+        var $ul = $('#assets');
+        debugger
+        for (var i = 0; i < assets_data.features.length; i++) {
+            var row = '<li>' + assets_data.features[i].properties.name + 
+                        '<div class="rside-icon">'+
+                            '<a href="#"><i class="fas fa-trash fa-sm p-icon"></i>Del</a>'+
+                            '<a href="#"><i class="fas fa-edit  fa-sm p-icon"></i>Edit</a>'+
+                        '</div>'+
+                    '</li>'
+            $ul.append(row);
+        }
+    }
+});
+
 //Load parcles data
 $.ajax({
     type: "GET",
     url: "http://localhost:5000/parcels",
     dataType: 'json',
-    success: function (response) {
-        geojsonLayer = L.geoJson(response, {
+    success: function (parcels_data) {
+        geojsonLayer = L.geoJson(parcels_data, {
             // style: yourLeafletStyle
         }).addTo(mymap)
     }
 });
+
