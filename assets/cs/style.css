@@ -31,10 +31,11 @@ body {
     border-bottom: 3px solid #7f181b;
 }
 
+@media only screen and (max-width: 1200px) {}
+
 .map-section {
-    width: 76.1%;
     height: 90.1%;
-    margin-left: 78px;
+    margin-left: 90px;
     position: fixed;
 }
 
@@ -78,7 +79,6 @@ body {
 }
 
 .side-list {
-    margin-left: 0.2rem !important;
     padding-left: 0.2rem;
     text-align: center;
 }
