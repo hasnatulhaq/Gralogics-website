@@ -34,6 +34,7 @@ body {
 @media only screen and (max-width: 1200px) {}
 
 .map-section {
+    width: 73rem;
     height: 90.1%;
     margin-left: 90px;
     position: fixed;
